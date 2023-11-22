@@ -1,5 +1,5 @@
 const title = document.getElementById('title');
-title.textContent = 'Simon Game';
+title.textContent = 'Simon';
 
 const btnEls = document.querySelectorAll(`.btn`);
 const startEl = document.getElementById('start');
@@ -16,7 +16,8 @@ const init = () => {
   sequence = [];
   score = 0;
   time = 1000;
-  score = document.getElementById('score').textContent = guesses.length;
+  document.getElementById('score').textContent = 0;
+  document.getElementById('high-score').textContent = 0;
   gameStarted = false;
 };
 init();
