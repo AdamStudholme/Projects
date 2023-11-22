@@ -1,0 +1,87 @@
+html {
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+#btn--0 {
+  /* background-color: rgb(0, 89, 255); */
+  border-top-left-radius: 200px;
+}
+#btn--1 {
+  /* background-color: rgb(2, 180, 2); */
+  border-top-right-radius: 200px;
+}
+#btn--2 {
+  /* background-color: rgb(228, 0, 0); */
+  border-bottom-left-radius: 200px;
+}
+#btn--3 {
+  /* background-color: rgb(231, 231, 0); */
+  border-bottom-right-radius: 200px;
+}
+
+.clicked {
+  box-shadow: 0px 0px 105px 75px rgba(45, 255, 196, 0.33);
+  opacity: 100% !important;
+}
+
+#title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin: 10px auto;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.btn {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  opacity: 80%;
+}
+
+.scoring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 180px;
+  height: 180px;
+  background-color: silver;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  z-index: 2;
+  border-radius: 100px;
+}
